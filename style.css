@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('wp8438092.webp' );
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.img1{
+    cursor: pointer;
+    margin-top: -65px;
+    margin-left: -25px;
+    
+    
+}
+.nav{
+    opacity: 30px;
+    height: 60px;
+    
+}
+.game{
+    color: white;
+    text-align: end;
+    margin-top: -120px;
+    font-family: 'Bungee Spice', sans-serif;
+    margin-right: 40px;
+    cursor: pointer;
+    
+}
+.para{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: -20px;
+    margin-left: 98px;
+    cursor: pointer;
+}
+.box{
+    background-color:rgba(87, 87, 87, 0.4);
+    border-radius: 10px;
+    width: 35%;
+    padding: 10px;
+    
+    
+    height: 300px;
+    text-align: center;
+    margin-top: 100px;
+    
+    
+}
+.box h1{
+
+    
+    font-family: 'Playpen Sans', cursive;
+    color: rgb(248, 247, 255);
+    padding: 10px;
+     
+    
+}
+.input{
+    padding: 5px;
+    width: 70%;
+    height: 20px;
+    text-align: center;
+    border: none;
+    border-color: rgb(13, 235, 161);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    font-style: initial;
+    background-color:azure;
+    margin-top: 20px;    
+}
+.input:hover{
+    background-color:  rgb(190, 245, 245);
+    
+    transition: 0.9s;
+    
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    margin-top: 25px;
+    border-radius: 40px;
+    border: none;
+    background-color: azure;;
+    font-style: initial;
+}
+.btn:hover{
+    background-color: aqua;
+    transition: 0.9s;
+}
+.box2{
+    padding: 10px;
+    background-color: rgba(2, 2, 2, 0.1);
+    
+    margin-top:50px ;
+}
+
+#h2{
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+.h3{
+    color: white;
+}
+.p3{
+    color: white;
+    font-style:normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgba(2, 2, 2, 0.4);
+    
+}
+@media screen and (max-width:600px){
+.img1{
+    width: 150px;
+    height:150px;
+    margin-top: -50px;
+    margin-left: -45px;
+}
+.para{
+    font-size: 13px;
+    margin-left:50px;
+    margin-top: -33px;
+}
+.game{
+    margin-top: -100px;
+    font-size: 25px;
+    margin-right: 4px;
+    margin-top: -90px;
+}
+.box{
+    width: 80%;
+}
+.p3{
+    margin-left: 0px;
+}
+
+}
+
+
+
+
